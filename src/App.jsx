@@ -16,7 +16,7 @@ function App() {
         setData(data)
       })
       .catch(error => {
-        console.log(error);
+        console.log("Error fetching data: " + error)
       });
   }, []);
 
